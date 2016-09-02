@@ -249,6 +249,10 @@ public class SquaresAndCirclesLoadingView extends RelativeLayout {
         if (mCircleAnimator != null) {
             mCircleAnimator.end();
             mCircleAnimator.removeAllListeners();
+            for (Animator animator : mCircleAnimator.getChildAnimations()) {
+                animator.end();
+                animator.removeAllListeners();
+            }
             mCircleAnimator = null;
         }
     }
