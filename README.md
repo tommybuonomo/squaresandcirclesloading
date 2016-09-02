@@ -8,7 +8,7 @@ A pretty loading animation inspired by [this post](https://dribbble.com/shots/29
 ####Gradle
 ```Gradle
 dependencies {
-    compile 'com.tbuonomo:squaresandcirclesloading:1.0.0'
+    compile 'com.tbuonomo:squaresandcirclesloading:1.0.2'
 }
 ```
 ####In your XML layout
